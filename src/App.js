@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <main className="App">
+      <section className="hero">
+        <p className="eyebrow">React portfolio prototype</p>
+        <h1>Nicholas Quam</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Software developer building web apps, product prototypes, and small automation tools.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="links" aria-label="Profile links">
+          <a href="https://nickquam.com">Website</a>
+          <a href="https://github.com/QickN">GitHub</a>
+          <a href="https://www.lockboxlabs.com">Lockboxlabs</a>
+        </div>
+      </section>
+    </main>
   );
 }
 
